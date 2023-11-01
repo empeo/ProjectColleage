@@ -1,0 +1,392 @@
+@media (min-width: 1201px) and (max-width: 2000px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1253px) {
+  /* nav */
+  .content a,
+  .content span,
+  .content i {
+    font-size: 18px !important;
+    padding: 10px !important;
+  }
+  /* end nav */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* nav */
+  .content a,
+  .content span,
+  .content i {
+    font-size: 18px !important;
+    padding: 5px !important;
+  }
+  /* end nav */
+  /* message send */
+
+  .message_send_contain {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  /* end message send */
+}
+
+@media (min-width: 991px) and (max-width: 1013px) {
+  /* nav */
+  .content a,
+  .content span,
+  .content i,
+  .logo__div span {
+    font-size: 18px !important;
+    padding: 5px !important;
+  }
+  /* end nav */
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  /* index page */
+  .child__loginForm .form__login {
+    margin-top: 50px !important;
+    width: 100% !important;
+  }
+  .image__form {
+    display: none !important;
+  }
+  /* end index page */
+  /* nav */
+  .content {
+    position: relative;
+  }
+  nav .content,
+  .content li,
+  .content li a {
+    width: 100%;
+    display: block;
+  }
+  .content li:not(.list-of-communication:last-child) {
+    box-shadow: 0 0 10px rgba(12, 255, 255, 0.924);
+  }
+  .nav__bu,
+  .nav__bu i {
+    color: white;
+    text-shadow: 0 0 15px rgb(25, 240, 240);
+    font-size: 30px;
+  }
+  /* end nav */
+  /* cards Situation */
+  .card_situation__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .card_situation .cards {
+    justify-content: start;
+    border-right: 0;
+    padding: 15px 0;
+    border-bottom: 3px solid rgb(25, 240, 240) !important ;
+  }
+
+  /* End cards Situation */
+  /* cards of services */
+  .cards_services .cards_situation__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* end cards of services */
+
+  /* cards reviews */
+
+  .cards-review .cards-review_container {
+    width: 30rem;
+  }
+  .cards-contains-container .card-contain .card-containing-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-contains-container
+    .card-contain
+    .card-containing-body
+    .info-card
+    .stars
+    i,
+  .cards-contains-container .card-contain .description {
+    font-size: 17px;
+  }
+  .cards-contains-container
+    .card-contain
+    .card-containing-body
+    .info-card
+    .name-person {
+    font-size: 20px;
+  }
+
+  /* end cards reviews */
+
+  /* message send */
+
+  .message_send_contain {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  /* end message send */
+
+
+  /* about */
+.d-flex{
+  flex-direction: column !important;
+  text-align: justify;
+  width: 100%;
+  justify-content: center;
+}
+.head-para{
+  width: 100% !important;
+}
+#opposite-direction-p1{
+  order: 2;
+}
+#opposite-direction-p2{
+  order: 1;
+}
+.container-about h1{
+  font-size: 2.2rem;
+  text-align: center;
+}
+.about h2{
+  font-size: 1.5rem;
+}
+.about p{
+  font-size: 1.2rem;
+}
+
+.about .about-border{
+  border-bottom:2px solid rgb(25 240 240);
+}
+/* end about */
+
+  /* Footer */
+  footer .reserved h3 {
+    font-size: 1.5rem !important;
+  }
+  footer .contactFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+  }
+  footer .contactFooter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  footer .contactFooter ul li a:hover {
+    transform: translateX(1rem) !important;
+    -webkit-transform: translateX(1rem) !important;
+    -moz-transform: translateX(1rem) !important;
+    -ms-transform: translateX(1rem) !important;
+    -o-transform: translateX(1rem) !important;
+  }
+  /* end Footer */
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* index page */
+  .child__loginForm .form__login {
+    text-align: center !important;
+    margin-top: 50px !important;
+    width: 100% !important;
+  }
+  .child__loginForm .form__login input {
+    width: 100% !important;
+    margin-top: 25px !important;
+  }
+  .image__form {
+    display: none !important;
+  }
+  /* end index page */
+  /* nav */
+  nav .content,
+  .content li,
+  .content li a {
+    width: 100%;
+    display: block;
+  }
+  nav .content li a i {
+    font-size: 17px;
+  }
+  .content li:not(.list-of-communication:last-child) {
+    box-shadow: 0 0 10px rgba(12, 255, 255, 0.924);
+  }
+  .nav__bu,
+  .nav__bu i {
+    color: white;
+    text-shadow: 0 0 15px rgb(25, 240, 240);
+    font-size: 30px;
+  }
+  /* end nav */
+
+  .hero__section article h2,
+  .hero__section article p {
+    font-size: 1.2rem !important;
+  }
+  /* end Hero Section */
+
+  /* cards Situation */
+  .card_situation__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+  .card_situation .cards {
+    justify-content: start;
+    border-right: 0;
+    border-bottom: 3px solid rgb(25, 240, 240) !important;
+  }
+  /* End cards Situation */
+
+  /* cards of services */
+  .cards_services .cards_situation__container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  /* end cards of services */
+
+  /* cars card */
+  .vehicles h2,
+  .vehicles .vehicles-slider .wrapper .box .content_box h3 {
+    font-size: 1.5rem;
+  }
+  .vehicles .vehicles-slider .wrapper .box .content_box p {
+    font-size: 1rem;
+  }
+
+  /* end cars card */
+
+  /* cards reviews */
+  .cards-contains-container {
+    padding: 0;
+  }
+  .cards-review .cards-review_container {
+    width: 100%;
+  }
+  .cards-contains-container .card-contain .card-containing-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-contains-container
+    .card-contain
+    .card-containing-body
+    .info-card
+    .stars
+    i,
+  .cards-contains-container .card-contain .description {
+    font-size: 15px;
+  }
+  .cards-contains-container
+    .card-contain
+    .card-containing-body
+    .info-card
+    .name-person {
+    font-size: 17px;
+  }
+
+  /* end cards reviews */
+
+  /* Message send */
+
+  .message_send h2 {
+    font-size: 1.5rem;
+  }
+
+  .message_send_contain {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .message_send h3{
+    font-size: 1.5rem ;
+  }
+  .message_content_form form .group-edit input,
+  .message_content_form form .group-edit textarea,
+  .message_content_form form .group-edit label {
+    font-size: 1.2rem;
+  }
+  .message_content_form form .group-button input {
+    font-size: 1.3rem;
+  }
+
+  /* END Message send */
+/* cars page */
+.friends__section .card{
+  width: 100% !important;
+  margin-bottom: 25px !important;
+}
+.friends__section .card .card-title {
+   font-size: 25px !important;
+}
+
+/* cars page  */
+  /* about */
+  .d-flex{
+    flex-direction: column !important;
+    text-align: justify;
+    width: 100%;
+    justify-content: center;
+  }
+  .head-para{
+    width: 100% !important;
+  }
+  #opposite-direction-p1{
+    order: 2;
+  }
+  #opposite-direction-p2{
+    order: 1;
+  }
+  .container-about h1 ,.team-about h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about h2{
+    font-size: 1.5rem;
+  }
+  .about p{
+    font-size: 1.2rem;
+  }
+  
+  .about .about-border{
+    border-bottom:2px solid rgb(25 240 240);
+  }
+  /* end about */
+
+  /* Footer */
+  footer .reserved h3 {
+    font-size: 17px !important;
+  }
+  footer .contactFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+  }
+
+  footer .contactFooter ul li a {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  footer .contactFooter ul li a:hover {
+    transform: translateX(1rem) !important;
+    -webkit-transform: translateX(1rem) !important;
+    -moz-transform: translateX(1rem) !important;
+    -ms-transform: translateX(1rem) !important;
+    -o-transform: translateX(1rem) !important;
+  }
+
+  /* end Footer */
+}
